@@ -5,6 +5,7 @@ describe("Test about dummy function", () => {
     it("should return a + b number", () => {
         const result = suma(4, 3);
         expect(result).toBe(7);
+        console.log(result);
     });
     
     it("should fail", () => {
